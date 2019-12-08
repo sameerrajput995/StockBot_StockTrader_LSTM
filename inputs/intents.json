@@ -1,0 +1,53 @@
+{"intents": [
+        {"tag": "stock",
+         "patterns": ["details about #goog", "details about #msft","details about #csco","details about #appl", "data about #ge","#goog","#ge","#aapl","#msft","#csco"],
+         "responses": ["What would you like to know "],
+         "context_set": ""
+        },
+        {"tag": "historic_data",
+         "patterns": ["1", "stock data","stock details"],
+         "responses": ["What would you like to know "],
+         "context_set": ""
+        },
+        {"tag": "greeting",
+         "patterns": ["how are you", "is anyone there?", "hello", "hi","hey", "whats up?"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "twitter",
+         "patterns": ["what is the twitter sentiment?","twitter sentiment","2"],
+         "responses": ["Here is the twitter sentiment Analytics on the requested Ticker"],
+         "context_set": ""
+        },
+        {"tag": "predict",
+         "patterns": ["predict close price for tomorrow","predict price","predict price for stock","4"],
+         "responses": ["The predicted Close price for the requested Ticker"],
+         "context_set": ""
+        },
+        {"tag": "investor",
+         "patterns": ["what does the investors feel about investing","investor sentiment","what are the investors feeling","3"],
+         "responses": ["The investor sentiment for the current week"],
+         "context_set": ""
+        },
+        {"tag": "compare",
+         "patterns": ["compare this stock with goog","compare to aapl","compare to ge","compare with goog"],
+         "responses": ["The investor sentiment for the current week"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "see you later", "goodbye", "i am leaving", "have a good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "what is your age", "how old are you", "age?"],
+         "responses": ["C'mon I'm a piece of code, What does it matter?", "I was just born yesterday :)"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "who are you?","your name?"],
+         "responses": ["I'm TINA aka Trading and Investments Newbie Assistant."],
+         "context_set": ""
+        }
+]
+}

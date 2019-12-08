@@ -1,0 +1,6 @@
+1. Use PyCharm to run the project.
+2. Import the project into PyCharm
+3. Install requirements using pip install -r requirements in the Terminal.
+4. Run app.py file as a flask application in PyCharm.
+
+Recorded_Steps.zip has been included to show the steps required to run the project.
